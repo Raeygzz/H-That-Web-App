@@ -1,0 +1,140 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+.body-saved-address {
+  background-color: #eee;
+  color: #333 !important;
+  font-family: flama !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+
+.center-saved-address {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* drop down */
+.dropdown-btn-saved-address {
+  color: #333 !important;
+  border-color: #eee !important;
+  background-color: #eee !important;
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+
+ul.dropdown-menu.show {
+  width: 100%;
+}
+
+.dropdown-menu li {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ccc;
+}
+
+.dropdown-menu li a {
+  color: #333;
+}
+
+/* button */
+
+.btn-saved-address {
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.a-saved-address,
+.a-saved-address:hover {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.btn-active-saved-address {
+  background-color: rgba(255, 98, 0, 0.2) !important;
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.i-active-saved-address {
+  color: #ff6100;
+}
+
+/* card */
+
+.card-saved-address {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 10px !important;
+  /* min-width: 350px !important; */
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  /*height: 500px;*/
+}
+
+.card-body-saved-address {
+  padding: 2rem;
+  text-align: center;
+  background-color: white !important;
+}
+
+.title-saved-address {
+  margin-bottom: 2rem;
+  font-family: flamablack;
+  font-size: 32px;
+}
+
+.btn-primary-saved-address {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+  width: 100%;
+  height: 50px;
+  font-weight: 100 !important;
+}
+
+.b-btn-saved-address {
+  font-size: 14px !important;
+}
+
+.light-saved-address {
+  color: #777;
+}
+
+.card .a-saved-address {
+  color: #ff6100;
+}
+
+.list-item-saved-address {
+  color: #333 !important;
+  border-color: #eee !important;
+  background-color: #eee !important;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,113 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+.body-enquiry {
+  background-color: #eee;
+  color: #333 !important;
+  font-family: flama !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+.a-enquiry,
+.a-enquiry:hover {
+  color: #ff6100;
+  display: block;
+}
+.a-underline,
+.a-underline:hover {
+  text-decoration: underline;
+}
+
+/* textbox */
+
+.form-input .txtbox {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.form-input .txtbox::placeholder {
+  color: #777777;
+  padding-left: 0px;
+}
+
+.form-input .txtbox:focus::placeholder {
+  color: #454b69;
+}
+/* text area */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+  resize: none;
+}
+
+/* button */
+
+.btn-enquiry {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+  width: 100%;
+  height: 50px;
+  font-weight: 100 !important;
+  font-family: flamabold;
+  font-weight: 100;
+}
+/* 
+.i-active-enquiry {
+  color: #ff6100;
+} */
+
+/* card */
+
+.card-enquiry {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 10px !important;
+  /* min-width: 350px !important; */
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+/* .card-body-enquiry {
+  padding: 2rem;
+  text-align: center;
+  background-color: white !important;
+} */
+
+.title-enquiry {
+  margin-bottom: 2rem;
+  font-family: flamablack;
+  font-size: 32px;
+}
+
+.light-enquiry {
+  color: #777;
+}
+
+/* change radio button */
+input {
+  accent-color: #ff6100;
+  display: inline-block;
+  margin-right: 10px !important;
+}
+

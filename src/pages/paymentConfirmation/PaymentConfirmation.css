@@ -1,0 +1,78 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+
+.b-pay{
+  font-size: 25px !important;
+}
+/* body */
+.btn-comfirm-pay {
+  width: 40% !important;
+  background-color: #333 !important;
+  color: #eee !important;
+  height: 45px;
+  float: right;
+}
+
+.btn-comfirm-pay:hover,
+.btn-img:hover {
+  background-color: #333 !important;
+}
+
+.b-btn-comfirm-pay {
+  font-size: 15px !important;
+  font-weight: 100 !important;
+}
+
+.card-comfirm-pay {
+  max-width: 70%;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 12px;
+}
+
+.card-comfirm-pay .flamabold {
+  font-size: 24px;
+}
+
+.header-comfirm-pay {
+  background-color: #333 !important;
+  color: #fff;
+  height:60px;
+}
+
+.float-right {
+  float: right;
+}
+
+.a-comfirm-pay,
+.a-comfirm-pay:hover {
+  text-decoration: none;
+  color: #eee;
+}
+
+.visa-save {
+  font-size: 30px !important;
+}
+
+.font-20{
+  font-size: 20px !important;
+}
+
+.stripe-img{
+  height: 100px !important;
+}
+
+.text-mid{
+  text-align: center !important;
+}
+.card-header:first-child{
+  border-radius: calc(0.65rem - 1px) calc(0.65rem - 1px) 0 0;
+}
+.pounds-font{
+  font-size: 18px;
+}

@@ -1,0 +1,134 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+.body-edit-user {
+  background-color: #eee;
+  color: #333 !important;
+  font-family: flama !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+.a-edit-user,
+.a-edit-user:hover {
+  color: #ff6100;
+  display: block;
+}
+.a-underline,
+.a-underline:hover {
+  text-decoration: underline;
+}
+
+/* textbox */
+
+.form-input .txtbox {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.form-input .txtbox::placeholder {
+  color: #777777;
+  padding-left: 0px;
+}
+
+.form-input .txtbox:focus::placeholder {
+  color: #454b69;
+}
+
+/* button */
+
+.btn-primary-edit-user {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+}
+.btn-secondary-edit-user {
+  background-color: #00000000 !important;
+  color: #777 !important;
+}
+.btn-edit-user {
+  width: 100%;
+  height: 50px;
+  font-weight: 100 !important;
+  font-family: flamabold;
+  font-weight: 100;
+}
+
+.btn-active-edit-user {
+  background-color: rgba(255, 98, 0, 0.2) !important;
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.i-active-edit-user {
+  color: #ff6100;
+}
+
+/* card */
+
+.card-edit-user {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 10px !important;
+  /* min-width: 350px !important; */
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body-edit-user {
+  padding: 2rem;
+  text-align: center;
+  background-color: white !important;
+}
+
+.title-edit-user {
+  margin-bottom: 2rem;
+  font-family: flamablack;
+  font-size: 32px;
+}
+
+.light-edit-user {
+  color: #777;
+}
+
+.trash-edit-user {
+  top: 45px;
+  position: absolute;
+  right: 25px;
+  color: #777;
+}
+.trash-edit-user-1 {
+  top: 101px;
+}
+
+/* change radio button */
+input {
+  accent-color: #ff6100;
+  display: inline-block;
+  margin-right: 10px !important;
+}
+svg.orange.trash {
+  position: relative;
+  right: 15px;
+  top: -40px;
+  float: right;
+}
+
+.hidden{
+  visibility: hidden !important;
+}

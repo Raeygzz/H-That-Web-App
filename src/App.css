@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "flamablack";
+  src: url(./assets/fonts/FlamaBlack.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "flamabold";
+  src: url(./assets/fonts/Flama-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "flama";
+  src: url(./assets/fonts/Flama\ Regular.otf) format("opentype");
+}

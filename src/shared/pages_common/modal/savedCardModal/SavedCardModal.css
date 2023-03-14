@@ -1,0 +1,91 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+
+.btn-saved:hover,
+.btn-img:hover {
+  background-color: #333 !important;
+}
+
+.b-btn-saved {
+  font-size: 15px !important;
+  font-weight: 100 !important;
+}
+
+.overlay {
+  position: fixed;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.card-saved {
+  max-width: 60%;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card-saved .flamabold {
+  font-size: 24px;
+}
+
+.header-saved {
+  background-color: #ff6100 !important;
+  color: #fff;
+}
+
+.float-right {
+  float: right;
+}
+
+.a-saved,
+.a-saved:hover {
+  text-decoration: none;
+  color: #eee;
+}
+
+/* .overlay {
+  overscroll-behavior: contain;
+} */
+.overlay {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* .clear, .clear:hover{
+  color: #FF6100;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+} */
+
+.visa-save {
+  font-size: 30px !important;
+}
+
+.center-saved{
+  text-align: center;
+}
+.position-cross{
+  position: absolute;
+  right: 20px;
+}

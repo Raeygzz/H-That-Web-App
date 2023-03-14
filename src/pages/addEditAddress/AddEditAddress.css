@@ -1,0 +1,129 @@
+.flamabold, b{
+  font-family: flamabold;
+}
+
+.body-add-address {
+  background-color: #eee;
+  color: #333 !important;
+  font-family: flama !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b{
+  font-weight: 900 !important;
+}
+
+/* body */
+.back, .back:hover{
+  color: #FF6100;
+  text-decoration: underline;
+  display: block;
+}
+
+/* textbox */
+
+.form-input .txtbox-add-edit{
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.form-input .txtbox-add-edit::placeholder{
+  color: #777777;
+  padding-left: 0px;
+}
+
+.form-input .txtbox-add-edit:focus::placeholder{
+  color: #454b69;
+}
+
+
+/* button */
+
+.btn-primary-add-address{
+  background-color: #FF6100 !important;
+  color: #fff !important;
+}
+.btn-primary-add-address:hover{
+  background-color: #333 !important;
+}
+.btn-secondary-add-address{
+  background-color: #00000000 !important;
+  color: #777 !important;
+}
+.btn-add-address{
+  width: 100%;
+  height: 50px;
+  font-weight: 100 !important;
+  font-family: flamabold;
+  font-weight: 100;
+}
+
+.a-add-address, .a-add-address:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-active-add-address{
+  background-color: rgba(255, 98, 0, 0.2) !important;
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.i-active-add-address{
+  color: #FF6100;
+}
+
+
+/* card */
+
+.card-add-address{
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 10px !important;
+  /* min-width: 350px !important; */
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-body-add-address{
+  padding: 2rem;
+  text-align: center;
+  background-color: white !important;
+}
+
+.title-add-address{
+  margin-bottom: 2rem;
+  font-family: flamablack;
+  font-size: 32px;
+}
+
+
+/* .b-btn-add-address{
+  font-size: 14px !important;
+}
+ */
+.light-add-address{
+  color: #777;
+}
+/*
+.card .a-add-address{
+  color: #FF6100;
+} */
+
+
+/* checkbox */
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  accent-color: #FF6100;
+}

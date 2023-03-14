@@ -1,0 +1,83 @@
+/* button */
+.configure-btn-selected,
+.configure-btn {
+  border: none;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.configure-btn-selected {
+  background-color: #ff6100;
+  color: white;
+}
+
+.configure-btn-active {
+  color: #ff6100;
+  background-color: white;
+}
+
+.configure-btn,
+.configure-btn-txt {
+  background-color: #fff0;
+  color: #999;
+}
+
+.card-configure {
+  min-height: 2286px;
+  max-height: 2286px;
+  height: 2286px;
+  /* min-height: 3260px;
+  max-height: 3260px;
+  height: 3260px; */
+  padding: 30px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.orange {
+  color: #ff6100;
+}
+
+.row-configure-card {
+  padding: 20px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.row-configure-card1 {
+  padding: 14px 0px;
+}
+
+.row-configure-card2 {
+  padding: 14px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.a-configure,
+.a-configure:hover {
+  text-decoration: none;
+  color: #ff6100;
+  width: 100%;
+  font-size: 14px !important;
+  height: 50px;
+  font-weight: 100 !important;
+  font-family: flamabold;
+}
+
+.title-configure-card {
+  margin-bottom: 1rem;
+  font-family: flamabold;
+  font-size: 24px;
+}
+
+.subtitle-configure {
+  margin-bottom: 1rem;
+  font-family: flamabold;
+  font-size: 20px;
+}

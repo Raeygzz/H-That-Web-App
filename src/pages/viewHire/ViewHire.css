@@ -1,0 +1,196 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+.container-fluid {
+  padding: 0% !important;
+}
+
+body {
+  background-color: #fff;
+  font-family: flama !important;
+  color: #333 !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+.back,
+.back:hover {
+  color: #ff6100;
+  text-decoration: underline;
+  display: inline-block !important;
+}
+
+.light-prod-hire {
+  color: #777 !important;
+}
+
+/* for images */
+.img-prod-hire {
+  width: 100%;
+  height: 300px !important;
+  object-fit: cover;
+}
+
+.thumbnail {
+  margin-top: 30px;
+  width: 143px;
+  height: 96px !important;
+  object-fit: cover;
+}
+
+.thumbnail-active {
+  opacity: 0.5;
+}
+
+/* .thumbnail:hover {
+  opacity: 1;
+} */
+
+/* circle buttons */
+.circle-btn1,
+.circle-btn1:hover {
+  background-color: rgba(51, 51, 51, 0.514) !important;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  height: 49px;
+  width: 49px;
+}
+
+.circle-orange,
+.circle-orange:hover {
+  background-color: #ff6100 !important;
+  top: 15px;
+  right: 15px;
+}
+
+.circle-grey,
+.circle-grey:hover {
+  background-color: #eee !important;
+  color: #777 !important;
+  position: relative;
+  top: -15px;
+  left: 0px !important;
+}
+
+/* right side*/
+
+/* buttons */
+.btn-prod-hire {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+  padding: 14px 20px !important;
+  letter-spacing: 0.7px;
+}
+.btn-prod-hire1 {
+  background-color: black !important;
+  color: #fff !important;
+  padding: 14px 20px !important;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.btn-prod-hire2 {
+  background-color: red !important;
+  color: #fff !important;
+  padding: 14px 20px !important;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+.btn-prod-hire-disable {
+  background-color: #777 !important;
+  color: #fff !important;
+  padding: 14px 20px !important;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.btn-prod-secondary {
+  background-color: #eee !important;
+  color: #333 !important;
+  letter-spacing: 0.7px;
+}
+
+.btn-prod-hire:hover,
+.btn-prod-secondary:hover {
+  background-color: #333 !important;
+  color: #eee !important;
+}
+
+.fa-star,
+.fa-star-half-full,
+.orange-pin {
+  color: #ff6100;
+}
+
+.orange-pin {
+  font-size: 21px !important;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* .card-calendar {
+  height: 453px;
+} */
+
+.dot {
+  height: 11px;
+  width: 11px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.alert-prod-hire {
+  background-color: #eee;
+  /* height: 73px; */
+}
+
+.a-alert,
+.a-alert:hover {
+  color: #ff6100;
+  text-decoration: underline;
+}
+
+.orange_bg {
+  background-color: #ff6100;
+  color: white;
+}
+
+.viewhire-noimg {
+  position: relative;
+  top: -40px;
+  left: 10px;
+  border-radius: 9px;
+}
+
+.images-pos {
+  position: relative;
+  top: -2px;
+  font-size: 24px;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day {
+  cursor: default !important;
+}
+
+button.react-calendar__tile.react-calendar__month-view__days__day.pointer {
+  cursor: pointer !important;
+}
+
+span.fa.fa-star-half-full {
+  margin-right: 10px;
+}

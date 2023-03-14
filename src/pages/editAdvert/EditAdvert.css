@@ -1,0 +1,248 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+.container-fluid {
+  padding: 0% !important;
+}
+
+body {
+  background-color: #fff;
+  font-family: flama !important;
+  color: #333 !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+.back,
+.back:hover {
+  color: #ff6100;
+  text-decoration: underline;
+  display: block;
+}
+
+.form-input .txtbox {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.form-input .txtbox::placeholder {
+  color: #777777;
+  padding-left: 0px;
+}
+
+.form-input .txtbox:focus::placeholder {
+  color: #454b69;
+}
+
+/* .half{
+  width: 48% !important;
+} */
+
+input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+  color: #ff6100;
+}
+
+input[type="radio"] {
+  color: #ff6100;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* image --NEEDS CHANGE */
+input[type="img"] {
+  width: 100%;
+  height: 265px;
+  background-color: #eeeeee;
+  border: none;
+}
+.span-post-advert {
+  position: inherit !important;
+  top: 0px !important;
+  padding: 0px !important;
+}
+
+/* drop down */
+.dropdown-btn-edit {
+  color: #777 !important;
+  border-color: #ccc !important;
+  background-color: white !important;
+  width: 100%;
+  height: 45px;
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+.dropdown-btn-edit::after {
+  position: absolute;
+  right: 10px;
+  top: 37px;
+}
+
+ul.dropdown-menu.show {
+  width: 100%;
+}
+
+.dropdown-menu li {
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ccc;
+}
+
+.dropdown-menu li a {
+  color: #333;
+}
+
+/* text */
+.txtarea {
+  height: 139px !important;
+  padding: 16px;
+}
+
+.dot {
+  height: 11px;
+  width: 11px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-red {
+  height: 11px;
+  width: 11px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terms,
+.terms:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.end-words {
+  color: #777;
+  margin-left: 25px;
+  margin-top: 18px;
+}
+
+.advert-btn {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+  padding: 14px 20px !important;
+  margin-bottom: 65px;
+}
+.input-image {
+  width: 100% !important;
+  background-color: #eeeeee !important;
+  height: 450px !important;
+}
+input.input-image::-webkit-file-upload-button {
+  visibility: hidden;
+}
+input[type="file"] {
+  color: rgba(0, 0, 0, 0);
+}
+.add-images {
+  width: 100px;
+  height: 50px;
+  color: #ff6100 !important;
+  /* background-color: red; */
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 50px 0 0 -47px;
+  cursor: pointer;
+}
+.add-icons {
+  font-size: 110px;
+
+  color: #ccc !important;
+  /* background-color: red; */
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -85px 0 0 -56px;
+}
+
+.added-image {
+  object-fit: contain;
+  border-radius: 4px;
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  height: 450px !important;
+  width: 100%;
+  /* margin: 50px 0 0 -47px; */
+}
+.disabled {
+  background-color: #bcb9b9 !important;
+  color: black !important;
+}
+.btn.disabled,
+.btn:disabled {
+  opacity: 1;
+}
+.disabled::placeholder {
+  color: black !important;
+}
+.dropdown-btn {
+  cursor: pointer !important;
+}
+
+.icon-position1 {
+  position: absolute;
+  top: 34%;
+  left: 77%;
+}
+.text-orange,
+.text-orange:hover {
+  color: #ff6100;
+  text-decoration: none;
+}
+.inline-block {
+  display: inline-block;
+}
+/************************************ Calendar CSS *********************************************/
+/* .highlight-dot {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 100% !important;
+  display: block !important;
+  background-color: #000000;
+  border-radius: 4px !important;
+}
+.highlight {
+  max-height: 52px !important;
+  height: 52px !important;
+  max-width: 52px !important;
+  width: 52px !important;
+  border-radius: 50% !important;
+  background-color: red !important;
+  margin: 0px 11.7px !important;
+  color: white;
+  border-radius: 60%;
+  font-weight: 900; 
+}
+ */

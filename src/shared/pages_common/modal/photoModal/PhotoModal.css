@@ -1,0 +1,208 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+b {
+  font-weight: 900 !important;
+}
+
+/* body */
+
+/* button */
+
+.btn-post-overlay {
+  background-color: #ff6100 !important;
+  color: #fff !important;
+  width: 100%;
+  height: 45px;
+}
+/*
+.btn-img{
+  background-color: #FF6100 !important;
+  color: #fff !important;
+   Center vertically and horizontally 
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin: 196px 0 0 -63px;
+}*/
+.btn-post-overlay:hover,
+.btn-img:hover {
+  background-color: #333 !important;
+}
+
+/* .btn-secondary-post-overlay{
+  background-color: #ffffff00 !important;
+  color: #777 !important;
+  width: 100%;
+  height: 50px;
+  font-weight: 100 !important;
+} */
+
+.b-btn-post-overlay {
+  font-size: 15px !important;
+  font-weight: 100 !important;
+}
+
+.overlay {
+  position: fixed;
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.card-post-overlay {
+  max-width: 950px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 25px;
+  /* margin-bottom: 100px; */
+}
+
+.card-post-overlay .flamabold {
+  font-size: 24px;
+}
+
+/* hiding default input file */
+.input-image-1::-webkit-file-upload-button,
+.input-image-2::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+/* custom input file */
+.input-image-1 {
+  width: 100% !important;
+  background-color: #eeeeee !important;
+  height: 400px !important;
+  color: rgba(0, 0, 0, 0);
+  margin-bottom: 21px;
+}
+.input-image-2 {
+  width: 100% !important;
+  background-color: #eeeeee !important;
+  height: 200px !important;
+  color: rgba(0, 0, 0, 0);
+}
+
+/*.add-images-1{
+  width: 100px;
+  height: 50px;
+  color: #ff6100 !important;
+   Center vertically and horizontally 
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  margin: 97px 0 0 -50px;
+}*/
+
+.added-image-1 {
+  object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 21px;
+  position: absolute;
+
+  top: 0%;
+  left: 0%;
+
+  height: 400px !important;
+  width: 100%;
+  /* margin: 50px 0 0 -47px; */
+}
+.added-image-2 {
+  width: 96%;
+  height: 147px !important;
+  color: #ff6100 !important;
+  object-fit: contain;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 24%;
+  left: 2%;
+}
+.added-image-edit {
+  width: 96%;
+  height: 200px !important;
+  color: #ff6100 !important;
+  object-fit: cover;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
+
+.header-advert {
+  background-color: #ff6100 !important;
+  color: #fff;
+}
+
+.float-right {
+  float: right;
+}
+
+.a-advert,
+.a-advert:hover {
+  text-decoration: none;
+  color: #eee;
+}
+
+.a-advert1 {
+  position: absolute;
+  left: 65%;
+  visibility: hidden;
+}
+.a-advert2,
+.a-advert2:hover {
+  position: absolute;
+  text-decoration: none;
+  color: #eee;
+  right: 0;
+  /* visibility: hidden; */
+}
+
+/* .overlay {
+  overscroll-behavior: contain;
+} */
+.overlay {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.clear,
+.clear:hover {
+  color: #ff6100;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.overlay {
+  overscroll-behavior: contain;
+}
+
+.icon-position2 {
+  position: absolute;
+  color: #070301;
+  top: 10%;
+  right: 5%;
+}
+.preview-text {
+  position: absolute;
+  color: #ff6100;
+  top: 50%;
+  left: 45%;
+}
+.text-over {
+  position: absolute;
+  color: #ff6100;
+  left: 16%;
+}
+.center-photos {
+  text-align: center;
+}

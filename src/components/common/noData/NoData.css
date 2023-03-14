@@ -1,0 +1,13 @@
+.noDataGrey{
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    min-height: 35px;
+    padding: 20px;
+}
+
+.noDataP{
+    font-family: flamabold;
+    color: rgb(116, 116, 116);
+    margin: 0px;
+    /* padding-top: 5px; */
+}

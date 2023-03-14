@@ -1,0 +1,52 @@
+.flamabold,
+b {
+  font-family: flamabold;
+}
+
+body {
+  background-color: #fff;
+  font-family: flama !important;
+  /* background: url(./bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; */
+}
+/* footer */
+footer {
+  width: 100%;
+  background-color: #ff6100;
+  color: #fff;
+  text-align: center;
+}
+
+footer h5 {
+  font-family: flama;
+  font-size: 16px !important;
+  font-weight: bold;
+  color: white;
+}
+
+footer ul li a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.footer-logo{
+  height: 80px !important;
+  margin: 32px 0px;
+  cursor: pointer;
+}
+
+.footer-txt{
+  color: #fff !important;
+}
+
+.footer-txt a {
+  color: #fff !important;
+}
