@@ -1,8 +1,8 @@
 {
-  "name": "hirethat",
+  "name": "hirest@ats",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://uat.hirethat.com",
+  "proxy": "https://regan.hirest@ats.com",
   "dependencies": {
     "@react-google-maps/api": "^2.7.0",
     "@reduxjs/toolkit": "^1.7.1",
